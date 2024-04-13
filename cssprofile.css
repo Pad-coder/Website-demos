@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.heading {
+    height: 6em;
+    background-color: hsl(203.48deg 19.66% 22.94%);
+    display: flex;
+    justify-content: start;
+}
+
+.github img {
+    height: 2em;
+    width: 2em;
+    position: relative;
+    top: 30px;
+    margin-left: 20px;
+}
+
+.title {
+    position: relative;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    align-content: center;
+    justify-content: center;
+    margin-left: 42%;
+    font-size: 25px;
+    color: hsl(180deg 100% 98.24%);
+}
+
+.content {
+    height: 670px;
+    width: 100%;
+    background-color: hsl(96.92deg 12.62% 79.8%);
+    position: relative;
+    display: flex;
+}
+
+.navgation {
+    position: relative;
+    top: 10%;
+    left: 5%;
+    height: 550px;
+    width: 25%;
+    border-radius: 15px;
+    background-color: rgb(53 53 53);
+    transition: transform 0.80s ease;
+}
+
+.box {
+    height: 550px;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 10%;
+    top: 10%;
+}
+
+.search-bar {
+    height: 50px;
+    width: 80%;
+    border-radius: 10px;
+    position: relative;
+    left: 10%;
+    background-color: rgb(53 53 53);
+}
+
+.text {
+    color: rgb(168 168 168);
+    position: relative;
+    top: 25%;
+    left: 4%;
+    font-size: x-large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.grid-Box{
+    height: 200px;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    top: 20%;
+    margin: 2%;
+}
+
+.box1{
+    height: 140px;
+    width: 400px;
+    border-radius: 15px;
+    margin-right: 100px;
+    background-color: rgb(53 53 53);
+    transition: transform 1.0s ease;
+}
+.box2{
+    height: 140px;
+    width: 400px;
+    border-radius: 15px;
+    margin-right: 100px;
+    background-color: rgb(53 53 53);
+    transition: transform 1.0s ease;
+}
+.box3{
+    height: 140px;
+    width: 400px;
+    border-radius: 15px;
+    background-color: rgb(53 53 53);
+    transition: transform 1.0s ease;
+}
+.description{
+    height: 190px;
+    width: 100%;
+    position: absolute;
+    background-color: rgb(53 53 53);
+    margin-top: 340px;
+    margin-left: 15px;
+    border-radius: 15px;
+    transition: transform 1.0s ease;
+}
+
+.navgation:hover{
+   transform: scale(1.09)
+}
+
+.box1:hover{
+    transform: scale(1.09)
+}
+.box2:hover{
+    transform: scale(1.09)
+}
+.box3:hover{
+    transform: scale(1.09)
+}
+.description:hover{
+    transform: scale(1.09);
+}

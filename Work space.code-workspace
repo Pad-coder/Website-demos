@@ -9,5 +9,8 @@
         {
             "path": "../HTML-CSS-Project-1"
         }
-    ]
+    ],
+    "settings": {
+        "liveServer.settings.multiRootWorkspaceName": "Website demos"
+    }
 }
